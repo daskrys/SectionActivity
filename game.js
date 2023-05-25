@@ -13,7 +13,7 @@ class SceneOne extends Phaser.Scene
 
     create () 
     {
-        
+
     }
 
     update () 
@@ -26,12 +26,12 @@ let config = {
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH,
-        width: 1920,
-        height: 1080,
+        width: 500,
+        height: 800,
     },
 
     scene: [SceneOne],
-    title: "Temp Name",
+    title: "Prototype",
     physics: {
         default: 'arcade',
         arcade: {
