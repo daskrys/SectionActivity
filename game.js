@@ -13,7 +13,7 @@ class SceneOne extends Phaser.Scene
     create () 
     {
         this.cameras.main.setBackgroundColor('#737373');
-        this.add.text(150, 200, "Game Name", {color: '#FFFFFF'}).setFontSize(35);
+        this.add.text(90, 200, "Roly Poly: To the End", {color: '#FFFFFF'}).setFontSize(25);
     }
 
     update () 
